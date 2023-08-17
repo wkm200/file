@@ -65,8 +65,8 @@ def block_averaging_plot(file_path):
         fig.show()
 
     # Prompt user for the selected block size
-    selected_block_size = int(input("Please enter the selected block size: "))
-    print(f"Selected block size for all atom types: {selected_block_size}")
+    # selected_block_size = int(input("Please enter the selected block size: "))
+    # print(f"Selected block size for all atom types: {selected_block_size}")
 
 # File path to the RMSE data
 file_path = '/content/file/it2-da2_vs_bmr27931_RMSE.csv'  # Replace with the path to your RMSE file
